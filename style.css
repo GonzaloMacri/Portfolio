@@ -1,0 +1,44 @@
+:root {
+    --text-black: #000000;
+    --backgroud-two: #757575;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    gap: 150px; 
+}
+
+.navbar-list{
+    gap: 30px;
+    list-style-type: none;
+}
+
+.navbar-list a{
+    color: var(--text-black);
+    font-size: 14px;
+    text-decoration: none;
+}
+.navbar-list .active{
+    font-weight: 600;
+    color: var(--text-black);
+}
+.logo{
+    display: flex;
+    height: 40%;
+}
