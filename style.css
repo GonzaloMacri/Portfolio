@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root {
     --text-black: #000000;
     --backgroud-two: #757575;
@@ -10,6 +14,7 @@ header{
     height: 65px;
     position: fixed;
     width: 100%;
+    flex-wrap: wrap;
     border-bottom: 2px solid black;
 }
 .navbar,
