@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 :root {
     --text-black: #000000;
@@ -10,21 +13,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
     height: 65px;
     position: sticky;
     top: 0px;
     width: 100%;
-    flex-wrap: wrap;
     border-bottom: 2px solid black;
     z-index: 10;
 }
 .navbar,
 .navbar-list{
+    padding: 20px;
     display: flex;
     align-items: end;
     justify-content: flex-end;
-    flex-wrap: wrap;
 }
 
 .navbar{
@@ -48,4 +49,84 @@ header{
 .logo{
     display: flex;
     height: 40%;
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#hero{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    max-width: 30%;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+}
+.hero-info h1, h2{
+    font-size: 48px;
+    font-weight: 800;
+    width: 80%;
+    min-width: 500px;
+}
+.hero-info p{
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    width: 60%;
+
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.link1{
+    background-color: black;
+    color: white;
+    font-weight: 300;
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.link2{
+    background-color: white;
+    color:black;
+    border: #000000 solid;
+    font-weight: 300;
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+.about-info{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-info p{
+    color: #757575;
+    font-weight: 400;
 }
