@@ -19,6 +19,7 @@ header{
     width: 100%;
     border-bottom: 2px solid black;
     z-index: 10;
+    background-color: aliceblue;
 }
 .navbar,
 .navbar-list{
@@ -90,10 +91,9 @@ main {
 }
 .hero-info p{
     color: gray;
-    font-weight: 600;
     font-size: 14px;
     width: 60%;
-
+    font-weight: 700;
 }
 .links{
     display: flex;
@@ -138,5 +138,54 @@ main {
 }
 .about-info p{
     color: #757575;
+    font-size: 14px;
 }
-
+#benefic-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    gap: 25px;
+}
+.benefic{
+    text-align: center;
+}
+.benefic h3{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
+}
+.benefic p{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+    border-top: #000000 solid;
+}
+footer ul{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 14px;
+    list-style-type: none; 
+    text-decoration: none;
+    font-weight: 800;
+}
+.footer-link{
+    display: flex;
+    gap: 20px;
+}
+footer span{
+    font-weight: 800;
+}
