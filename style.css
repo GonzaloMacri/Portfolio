@@ -19,7 +19,8 @@ header{
     width: 100%;
     border-bottom: 2px solid black;
     z-index: 10;
-    background-color: aliceblue;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 33%, rgba(255,105,40,1) 62%, rgba(255,85,0,1) 100%);
 }
 .navbar,
 .navbar-list{
@@ -161,19 +162,34 @@ main {
     font-weight: 400;
     font-size: 12px;
 }
-footer{
+.language{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
     color: transparent;
     background-clip: text;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 60px 0;
-    border-top: #000000 solid;
 }
-footer ul{
+.language img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 40px;
+    padding: 60px;
+    margin-top: 50px;
+    width: 88.3%;
+    border-top: #000000 solid;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 33%, rgba(255,105,40,1) 62%, rgba(255,85,0,1) 100%);
+}
+.footer-link ul{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
     color: transparent;
     background-clip: text;
@@ -185,7 +201,56 @@ footer ul{
 .footer-link{
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
 }
 footer span{
     font-weight: 800;
+}
+.title-buy{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 25px;
+    font-weight: 900;
+}
+.buy-container{
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.buypage{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+    color: transparent;
+    background-clip: text;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    gap: 20px;
+    margin-top: 20px;
+    border: #02050e solid;
+}
+.buypage-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.btn-add{
+    background-color: orange;
+    border: none;
+    padding: 10px 35px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
 }
