@@ -134,10 +134,16 @@ main {
 }
 .logo2{
     max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-info{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 35px;
     font-weight: 1500;
     width: 80%;
@@ -152,6 +158,7 @@ main {
     font-size: 14px;
     width: 60%;
     font-weight: 400;
+    min-width: 500px;
 }
 .links{
     display: flex;
@@ -187,15 +194,17 @@ main {
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
 }
-.about-info{
-    display: flex;
+#about{
+    margin-left: 100px;
+    margin-right: 100px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    text-align: center;
 }
 .about-info p{
     color: #757575;
     font-size: 14px;
-    text-align: center;
 }
 #benefic-container{
     display: flex;
