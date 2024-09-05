@@ -146,8 +146,7 @@ main {
     text-align: center;
     font-size: 35px;
     font-weight: 1500;
-    width: 80%;
-    min-width: 500px;
+    width: 100%;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
     color: transparent;
     background-clip: text;

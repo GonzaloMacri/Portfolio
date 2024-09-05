@@ -45,6 +45,7 @@
         background-clip: text;
     }
     .hero-info{
+        display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
