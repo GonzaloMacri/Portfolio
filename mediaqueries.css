@@ -1,7 +1,7 @@
 @media (max-width:992px){
     .navbar{
         gap: 30px;
-        margin: 30px;
+        margin: 50px;
     }
     .logo img{
         width: 80px;
@@ -44,18 +44,14 @@
         color: transparent;
         background-clip: text;
     }
+    .logo2{
+        display: none;
+    }
     .hero-info{
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-    }
-    .hero-info h1 , h2{
-        width: 90%;
-    }
-    .hero-info p{
-        text-align: center;
-        width: 60%;
     }
     .about-info{
         display: flex;
@@ -83,9 +79,7 @@
         justify-content: center;
         align-items: center;
     }
-}
-@media (max-width:576px){
-    .logo2{
-        display: none;
+    footer{
+        width: 100%;
     }
 }
