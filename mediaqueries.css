@@ -85,30 +85,7 @@
     }
 }
 @media (max-width:576px){
-.hero-info{
-    margin-left: 50px;
-}
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
-.about-info p{
-    font-size: 14px;
-}
-#benefic-container{
-    margin-left: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.language{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
-#buy{
-    margin-left: 50px;
-}
+    .logo2{
+        display: none;
+    }
 }
