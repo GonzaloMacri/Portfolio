@@ -6,22 +6,67 @@
     <title>Portfolio Gonzalo Macri</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="keyframes.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <header>
         <a href="index.html"><img src="img/Logo 5.png" alt="Logo" class="logo"></a>
         <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="/img/menu.png" alt="menutoggle">
+            </label>
+            <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
                 <li><a href="" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#proceeds">Benefic</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">FAQ</a></li>
             </ul>
-        </nav>
+        <label for="cart-toggle" class="cart-toggle">
+            <img src="/img/shopping-cart.png" alt="carrito">
+        </label>
+        <input type="checkbox" id="cart-toggle">
+        <div class="cart">
+            <h2>Your next website</h2>
+            <button class="btn-buy">H i r e</button>
+            <div class="cart-item">
+                <img src="/img/layout-template.png" alt="web">
+                <div class="iteminfo">
+                    <h3 class="item-title">Landing Page</h3>
+                    <span class="item-price">150 USD</span>
+                </div>
+                <div class="delete">
+                    <a href=""><img src="/img/delete.png" alt="delete"></a>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="/img/layout-template.png" alt="web">
+                <div class="iteminfo">
+                    <h3 class="item-title">E-Commerce</h3>
+                    <span class="item-price">200 USD</span>
+                </div>
+                <div class="delete">
+                    <a href=""><img src="/img/delete.png" alt="delete"></a>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="/img/layout-template.png" alt="web">
+                <div class="iteminfo">
+                    <h3 class="item-title">WebApplication</h3>
+                    <span class="item-price">250 USD</span>
+                </div>
+                <div class="delete">
+                    <a href=""><img src="/img/delete.png" alt="delete"></a>
+                </div>
+            </div>
+            <span class="divider"></span>
+            <div class="cart-total">
+                <p>Total: </p>
+                <span>600 USD</span>
+            </div>
+            <button class="btn-buy">H i r e</button>
+        </div>
+         </nav>
     </header>
     <main>
          <section id="hero">
@@ -128,16 +173,16 @@
             </div>
          </section>
          <footer id="contact">
-        <nav  class="footer-link">
-            <ul>
-                <img src="/img/smartphone.png" alt="cellphone"><li><span>+54 9 11 7062-8364</span></li>
-                <img src="/img/mail.png" alt="email"><li><span>Mail: gonzalomacri222@gmail.com</span></li>
-                <img src="/img/instagram.png" alt="instagram"><li><a href="https://www.instagram.com/gonzamacri/" target="_blank"><span>Instagram: gonzamacri</span></a></li>
-                <img src="/img/headset.png" alt="call"><li><span>Discord: gonzamacri</span></li>
-                <img src="/img/github.png" alt="github"><li><a href="https://github.com/GonzaloMacri" target="_blank">GitHub</a></li>
-            </ul>
-        </nav>
-        
+                <nav  class="footer-link">
+                    <ul>
+                        <img src="/img/smartphone.png" alt="cellphone"><li><span>+54 9 11 7062-8364</span></li>
+                        <img src="/img/mail.png" alt="email"><li><span>Mail: gonzalomacri222@gmail.com</span></li>
+                        <img src="/img/instagram.png" alt="instagram"><li><a href="https://www.instagram.com/gonzamacri/" target="_blank"><span>Instagram: gonzamacri</span></a></li>
+                        <img src="/img/headset.png" alt="call"><li><span>Discord: gonzamacri</span></li>
+                        <img src="/img/github.png" alt="github"><li><a href="https://github.com/GonzaloMacri" target="_blank">GitHub</a></li>
+                    </ul>
+                </nav>
+                
          </footer>
     </main>
 </body>

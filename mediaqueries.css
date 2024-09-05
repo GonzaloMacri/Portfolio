@@ -1,0 +1,89 @@
+@media (max-width:992px){
+    .navbar{
+        gap: 30px;
+        margin: 30px;
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-list{
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        flex-direction: column;
+        align-items: start;
+        background: rgb(255,255,255);
+        background: rgb(29, 27, 27);
+        border: 2px solid orange;
+        border-top: 0;
+        border-radius: 0px 0px 15px 15px;
+        -webkit-border-radius: 0px 0px 15px 15px;
+        -moz-border-radius: 0px 0px 15px 15px;
+        -ms-border-radius: 0px 0px 15px 15px;
+        -o-border-radius: 0px 0px 15px 15px;
+        padding: 45px 30px;
+    }
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        order: 2;
+    }
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+    .navbar-list a{
+        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+        color: transparent;
+        background-clip: text;
+    }
+    .navbar-list .active{
+        background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255,105,40,1) 58%, rgba(255,85,0,1) 100%);
+        color: transparent;
+        background-clip: text;
+    }
+    .hero-info{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-info h1 , h2{
+        width: 90%;
+    }
+    .logo2{
+        display: none;
+    }
+    .hero-info p{
+        text-align: center;
+        width: 60%;
+        max-width: 600px;
+    }
+    .about-info{
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #benefic-container{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .buy-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer{
+        width: 100%;
+    }
+    .language{
+        margin-top: 35px;
+    }
+}
+@media (max-width:576px){
+
+}
